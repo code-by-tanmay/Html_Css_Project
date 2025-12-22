@@ -1,0 +1,166 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.resume-container {
+  max-width: 850px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  margin: 40px auto;
+  border: 6px solid #007bff;
+}
+
+.resume-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 3px solid #007bff;
+  color: #007bff;
+}
+
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #007bff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.info-wrapper {
+  display: flex;
+}
+
+.blue-vertical-line {
+  width: 3px;
+  background-color: #007bff;
+  min-height: 180px;
+}
+
+.personal-info {
+  font-size: 18px;
+  padding-left: 45px;
+  padding-top: 30px;
+}
+
+
+.section-line {
+  width: 100%;
+  height: 2px;
+  background-color: #007bff;
+  margin: 30px 0 20px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.section-text {
+  font-size: 16px;
+  text-align: justify;
+}
+
+
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+
+
+.list-group-item {
+  background-color: #f8f9fa;
+  border: 1px solid #007bff;
+  color: #007bff;
+  font-weight: 500;
+}
+
+
+.signature {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 20px;
+  }
+
+  .info-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blue-vertical-line {
+    display: none;
+  }
+
+  .personal-info {
+    padding-left: 0;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .profile-pic {
+    width: 140px;
+    height: 140px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .resume-container {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  .resume-heading {
+    font-size: 22px;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .section-title {
+    font-size: 18px;
+  }
+
+  .section-text,
+  .personal-info,
+  .list-group-item,
+  table {
+    font-size: 14px;
+  }
+
+  .signature {
+    text-align: center;
+  }
+}
