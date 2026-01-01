@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login form</title>
+
+  <link rel="stylesheet" href="index3.css">
+</head>
+<body>
+
+  <form action="one.html" method="get">
+    <div class="a">
+      <h1 id="z">Login Form !!</h1> <br />
+
+      <!-- Name -->
+      <div>
+        <label for="text"><strong id="x">Name: </strong></label>
+        <input type="text" placeholder="Enter the full name" id="text" name="username" required />
+      </div> <br />
+
+      <!-- Password -->
+      <div>
+        <label for="pass"><b>Password:</b></label>
+        <input type="password" placeholder="Enter the password" id="pass" name="password" required />
+      </div> <br /> 
+
+      <!-- Email -->
+      <div>
+        <label for="email"><b>Email:</b></label>
+        <input type="email" placeholder="Enter the email" id="email" name="email" required />
+      </div> <br /> <br />
+
+      <!-- Gender -->
+      <div class="b">
+        <b>Gender:</b>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="Gender" value="male" />
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="Gender" value="female" />
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="Gender" value="other" />
+      </div> <br /> <br />
+
+      <!-- Course -->
+      <div>
+        <label for="course"><b>Select course:</b></label>
+        <select name="course" id="course">
+          <option value="">--Please choose an option--</option>
+          <option value="web development">Web Development</option>
+          <option value="data scientist">Data Scientist</option>
+          <option value="cloud technology">Cloud Technology</option>
+          <option value="data engineer">Data Engineer</option>
+          <option value="full stack">Full Stack</option>
+          <option value="cyber security">Cyber Security</option>
+        </select>
+      </div> <br /> <br />
+
+      <!-- Skills -->
+      <div>
+        <b>Skills:</b>
+        <label for="c">C</label>
+        <input type="checkbox" id="c" name="skills" value="C" />
+
+        <label for="cpp">C++</label>
+        <input type="checkbox" id="cpp" name="skills" value="C++" />
+
+        <label for="java">Java</label>
+        <input type="checkbox" id="java" name="skills" value="Java" />
+
+        <label for="python">Python</label>
+        <input type="checkbox" id="python" name="skills" value="Python" />
+      </div> <br /> <br />
+
+      <!-- DOB -->
+      <div>
+        <label for="date"><b>Date of birth:</b></label>
+        <input type="date" id="date" name="dob" />
+      </div> <br /> 
+
+      <!-- Profile picture -->
+      <div>
+        <label for="avatar"><b>Profile picture:</b></label>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+      </div> <br />
+
+      <!-- Address -->
+      <div>
+        <label for="story"><b>Address:</b></label>
+        <textarea id="story" name="address" rows="2" cols="30" placeholder="Put your address here ....."></textarea>
+      </div> <br />
+
+      <!-- Submit button -->
+      <div>
+        <input class="c" type="submit" value="Submit" />
+      </div>
+
+    </div>
+  </form>
+
+</body>
+</html>
